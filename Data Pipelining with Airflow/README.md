@@ -26,7 +26,7 @@ This repo provides the ETL pipeline, to ingest sparkify's music data into an AWS
 ---
 * For the schema design, the STAR schema is used as it simplifies queries and provides fast aggregations of data.
 
-![Schema](screenshots/schema.PNG)
+![Schema](screenshots/schema.png)
 
 * For the ETL pipeline, Python is used as it contains libraries such as pandas, that simplifies data manipulation. It enables reading of files from S3.
 
@@ -39,4 +39,4 @@ This repo provides the ETL pipeline, to ingest sparkify's music data into an AWS
 * Turning on the sparkify_music_dwh_dag DAG in Airflow UI will automatically trigger the ETL pipelines to run.
 * DAG is as such (from graph view):
 
-![DAG](screenshots/dag.PNG)
+![DAG](screenshots/dag.png)
